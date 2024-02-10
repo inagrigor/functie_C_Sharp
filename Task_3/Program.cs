@@ -29,3 +29,16 @@
 // int[] array = { 10, 20, 30, 40, 50 };
 // ZeroEvenElements(array);
 // PrintArray(array);
+
+int n = 10;
+ int[] array = new int[n];
+  int i = 0;
+ while (i < n)
+ {
+         array[i] = i + 1;
+}
+ i = 0;
+ while (i < n)
+ {
+         Console.Write($"{array[i]} ");
+ }
